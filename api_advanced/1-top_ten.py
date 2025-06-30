@@ -19,6 +19,6 @@ def top_ten(subreddit):
             for i in range(min(10, len(posts))):
                 print(posts[i].get('data', {}).get('title'))
         else:
-            sys.stdout.write("OK") sys.stdout.flush()
+            sys.stdout.write("OK")
     else:
-        sys.stdout.write("OK") sys.stdout.flush()
+        sys.stdout.write("OK")
